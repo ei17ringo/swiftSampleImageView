@@ -14,6 +14,8 @@
 		1B88482E1C5B41E00032DD99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B88482C1C5B41E00032DD99 /* LaunchScreen.storyboard */; };
 		1B8848391C5B41E00032DD99 /* sampleImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8848381C5B41E00032DD99 /* sampleImageViewTests.swift */; };
 		1B8848441C5B41E00032DD99 /* sampleImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8848431C5B41E00032DD99 /* sampleImageViewUITests.swift */; };
+		1B8848521C5B467D0032DD99 /* berry.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B8848511C5B467D0032DD99 /* berry.png */; };
+		1B8848541C5B497D0032DD99 /* yosemite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B8848531C5B497D0032DD99 /* yosemite.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1B88483F1C5B41E00032DD99 /* sampleImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8848431C5B41E00032DD99 /* sampleImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleImageViewUITests.swift; sourceTree = "<group>"; };
 		1B8848451C5B41E00032DD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8848511C5B467D0032DD99 /* berry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = berry.png; sourceTree = "<group>"; };
+		1B8848531C5B497D0032DD99 /* yosemite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yosemite.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		1B8848221C5B41E00032DD99 /* sampleImageView */ = {
 			isa = PBXGroup;
 			children = (
+				1B8848531C5B497D0032DD99 /* yosemite.png */,
+				1B8848511C5B467D0032DD99 /* berry.png */,
 				1B8848231C5B41E00032DD99 /* AppDelegate.swift */,
 				1B8848251C5B41E00032DD99 /* ViewController.swift */,
 				1B8848271C5B41E00032DD99 /* Main.storyboard */,
@@ -229,6 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8848521C5B467D0032DD99 /* berry.png in Resources */,
+				1B8848541C5B497D0032DD99 /* yosemite.png in Resources */,
 				1B88482E1C5B41E00032DD99 /* LaunchScreen.storyboard in Resources */,
 				1B88482B1C5B41E00032DD99 /* Assets.xcassets in Resources */,
 				1B8848291C5B41E00032DD99 /* Main.storyboard in Resources */,

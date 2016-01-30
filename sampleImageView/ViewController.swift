@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myBtn2: UIButton!
+    @IBOutlet weak var myBtn1: UIButton!
+    @IBOutlet weak var myImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //myImageView.image = UIImage(named: "berry.png")
+        
+        myImageView.image = UIImage(named: "yosemite.png")
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +27,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func tapBtn1(sender: UIButton) {
+        myImageView.image = UIImage(named: "berry.png")
+    }
 
+    @IBAction func tapBtn2(sender: UIButton) {
+        myImageView.image = UIImage(named: "yosemite.png")
+    }
 }
 
